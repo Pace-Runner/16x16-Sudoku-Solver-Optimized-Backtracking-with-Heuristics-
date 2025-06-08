@@ -3,7 +3,7 @@ This is a fast and simple 16x16 Sudoku solver I wrote in C++. It uses optimized 
 
 How it works
 
-    The Sudoku grid is 16x16 — supports numbers 1-9 and letters A-G (base 16 logic).
+    The Sudoku grid is 16x16 (supports numbers 1-9 and letters A-G [base 16 logic] ).
 
     The grid is read as a single block of input, row by row.
 
@@ -16,7 +16,7 @@ It uses a simple recursive solve() function with backtracking:
 
     Always picks the empty cell with the least number of possibilities.
 
-    This greatly improves performance — the puzzle solves much faster.
+    This greatly improves performance.
 
     If stuck, it backtracks cleanly.
 
